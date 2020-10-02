@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.hero-image {
+    background-image: url("https://www.svenskttenn.se/filtered/2127/rszww1500h1500-83/svenskt_tenn_tapet_eldblomman_rod--260638475-rszww1500h1500-83.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.svenskttenn.se/filtered/2127/rszww1500h1500-83/svenskt_tenn_tapet_eldblomman_rod--260638475-rszww1500h1500-83.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-text {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.content{
+    margin-bottom: 2rem;
+    border: 1px solid black;
+}
