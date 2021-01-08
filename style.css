@@ -140,17 +140,7 @@ h5 {
 }
 
 @media(min-width:768px) {
-    .hero-text {
-        flex-direction: row;
-        padding: 0 1rem;
-    }
-    .li {
-        flex-direction: row;
-    }
-    .links li {
-        flex-direction: row;
-    }
-    main {
+   main {
         flex-direction: row;
     }
     .box-1 {
@@ -161,12 +151,5 @@ h5 {
     }
     .box-3 {
         text-align: center;
-    }
-    .timeline
-    {
-        flex-flow: column wrap;
-    }
-    .content{
-        width:50%;
     }
 }
